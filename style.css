@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Mulish;
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/woff2/Mulish-Light.woff2") format(woff2);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/woff2/Mulish-Bold.woff2") format(woff2);
+}
+body {
+  font-family: Mulish, sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin: 61px auto 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+
+  margin: 26px auto 33px;
+}
+
+#text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.66;
+  text-align: center;
+  color: #7d7987;
+
+  width: 925px;
+  margin: 0 auto;
+}
+
+ul {
+  display: block;
+  width: 1161px;
+  margin: 0 auto;
+}
+
+li {
+  width: 352px;
+  background-color: #fff;
+  margin: auto 16px 37px;
+  padding: 0 45px 0 39px;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  display: inline-block;
+  vertical-align: top;
+  min-height: 354px;
+  box-sizing: border-box;
+}
+
+.headingServices {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2.33;
+}
+
+.textServices {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #7d7987;
+
+  width: 266px;
+}
+div {
+  margin: 80px 240px;
+}
+img {
+  margin: 40px auto 30px;
+  height: 100px;
+}
+button {
+  width: 200px;
+  height: 56px;
+  display: block;
+  margin: 72px auto;
+
+  background: none;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+
+  color: #458ff6;
+  font-weight: 700;
+  font-size: 18px;
+}
